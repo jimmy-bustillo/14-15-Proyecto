@@ -46,10 +46,24 @@ $color-main: #0075ff;
 }
 
 .main-menu {
+  padding: 0;
+  margin-bottom: 0;
+  display: flex;
+  gap: 0.75rem;
+
   li {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     list-style: none;
     display: inline;
+
+    a {
+      color: #000;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
