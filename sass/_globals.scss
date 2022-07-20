@@ -92,3 +92,9 @@ body {
     }
   }
 }
+
+.sec-benefits {
+  border-top: 1px solid #ccc;
+
+  @extend .sec-features, .intro;
+}
