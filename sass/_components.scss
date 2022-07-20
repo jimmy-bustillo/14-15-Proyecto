@@ -113,14 +113,14 @@ $color-main: #0075ff;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  .icon {
+  i {
     padding: 0;
     color: $color-main;
-    font-size: 10rem;
+    font-size: 5rem;
   }
   .title {
-    margin-top: -2rem;
-    font-size: 1.5rem;
+    margin-top: -1rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
 }
