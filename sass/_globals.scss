@@ -98,3 +98,27 @@ body {
 
   @extend .sec-features, .intro;
 }
+
+.sec-kpis {
+  width: 100%;
+  margin: 0;
+  background-color: components.$color-main;
+  color: white;
+  padding: 3rem;
+
+  .kpi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .number {
+      font-size: 3.5rem;
+      font-weight: 600;
+    }
+
+    .desc {
+      font-size: 0.9rem;
+      color: #ffffffaa;
+    }
+  }
+}
