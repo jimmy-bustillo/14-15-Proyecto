@@ -122,3 +122,20 @@ body {
     }
   }
 }
+
+.sec-onboarding {
+  @extend .sec-benefits, .intro;
+
+  .steps {
+    padding: 0 4rem 5rem 4rem;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+
+    .step-separator {
+      flex: 1;
+      border-top: 2px solid #ddd;
+    }
+  }
+}
